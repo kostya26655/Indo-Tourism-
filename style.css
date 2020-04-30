@@ -6,6 +6,10 @@ a {
     text-decoration: none;
     color: #8d8d8d;   
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 ul {
     list-style: none;
 }
@@ -18,9 +22,13 @@ body {
 } 
 
 body {
-    max-width: 1280px;
-    background: url(img/layer3.png) no-repeat;
-    background-position: top 30px center;
+    min-width: 1280px;
+    background:    
+    url(img/layer2.png),
+    url(img/layer3.png);
+    background-position: top 600px center, top 30px center;
+    background-size: 1280% 100%, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
    }
 .main-header {
     min-width: 1025px;
